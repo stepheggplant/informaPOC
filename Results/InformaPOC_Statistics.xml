@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="OpenSalesforce">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>Aug 28, 2019 at 9:58:54 AM</FirstRun>
+  <LastRun>Aug 28, 2019 at 10:09:12 AM</LastRun>
+  <TotalTimeOnSuccess>14.508654</TotalTimeOnSuccess>
+ </script>
+ <script name="Login">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>Aug 28, 2019 at 10:09:27 AM</FirstRun>
+  <LastRun>Aug 28, 2019 at 10:12:24 AM</LastRun>
+  <TotalTimeOnSuccess>9.395694</TotalTimeOnSuccess>
+ </script>
+ <script name="Master">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>Aug 28, 2019 at 10:12:03 AM</FirstRun>
+  <LastRun>Aug 28, 2019 at 10:12:03 AM</LastRun>
+  <TotalTimeOnSuccess>9.542468</TotalTimeOnSuccess>
+ </script>
+</statistics>

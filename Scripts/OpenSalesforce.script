@@ -1,0 +1,22 @@
+﻿(* Lead creation - sales - to testlead creation
+Test steps 1*)
+
+params browser,url
+set browser to "chrome"
+set url to "https://informage--qualitest.lightning.force.com/lightning/page/home"
+
+
+-- Connects to SUT
+Connect "Windows SUT"
+
+-- Opens windows run window and types in website we want to go to 
+
+typetext windowskey,"r"
+typetext browser&&url
+typetext,returnKey
+
+-- Confirms we can see asda logo
+
+WaitFor 15, "LogIntoSandbox"
+
+

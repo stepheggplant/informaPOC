@@ -1,0 +1,27 @@
+﻿(* Lead creation - sales - to testlead creation
+Test steps 2*)
+
+-- Pritesh to add encryption to password 
+params username,password  
+set username to "stephanie.eta@eggplant.io.ge.qualitest"
+set password to "eggplant1!"
+
+-- Restrict search rectagnle to the login box area so that OCR performance is optimised
+set the SearchRectangle to ("LogIn_TL","LogIn_BR")
+
+-- click the relevant field and also type in the log in details 
+click text:"username"
+typetext username 
+wait 2
+click text:"password"
+typetext password 
+wait 2
+
+-- click login button to log into salesforce 
+click "LogIntoSandbox"
+
+-- confirm that we have logged in successfully 
+WaitFor 15, "SF_lightning_icon"
+--
+
+
