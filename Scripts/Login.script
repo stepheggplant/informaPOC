@@ -22,6 +22,6 @@ click "LogIntoSandbox"
 
 -- confirm that we have logged in successfully 
 WaitFor 15, "SF_lightning_icon"
---
+-- yes 
 
 
